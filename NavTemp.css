@@ -1,8 +1,31 @@
 nav {
   
+  display:block;
+  width:100%;
+  position:fixed;
+  top:0;
+  
+}
+
+ul {
+  
+  list-style-type:none;
+  
 }
 
 li a {
-  text-decoration:none;
+  
+  display: block
+  text-decoration: none;
+  background-color: [COLOR 1];
+  color: [COLOR 2];
+  
+}
+
+li a:hover {
+ 
+  text-decoration: underline;
+  background-color: [COLOR 2];
+  color: [COLOR 1];
   
 }
