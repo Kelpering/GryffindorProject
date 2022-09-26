@@ -1,0 +1,1 @@
+This file is necessary to create this folder. Please delete upon creation of a file within this folder.
