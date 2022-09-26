@@ -11,9 +11,9 @@ A School Group Project about harry potter houses. Will include HTML and CSS
 
 ## Colors:
   
-- #740001  
-- #AE0001
-- #D3A625
-- #EEBA30
-- #000000
-- #C0C0C0
+- `#740001`
+- `#AE0001`
+- `#D3A625`
+- `#EEBA30`
+- `#000000`
+- `#C0C0C0`
