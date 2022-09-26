@@ -15,17 +15,17 @@ ul {
 
 li a {
   
-  display: block
+  display: block;
   text-decoration: none;
-  background-color: [COLOR 1];
-  color: [COLOR 2];
+  /* background-color: [COLOR 1];
+  color: [COLOR 2]; */
   
 }
 
 li a:hover {
  
   text-decoration: underline;
-  background-color: [COLOR 2];
-  color: [COLOR 1];
+  /* background-color: [COLOR 2];
+  color: [COLOR 1]; */
   
 }
