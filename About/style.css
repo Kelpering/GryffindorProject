@@ -1,1 +1,57 @@
-TEMPLATE ABOUT CSS FILE
+/*Navbar START*/
+
+nav {
+  
+    display: inline;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:#EEBA30;
+    height:45px;
+    
+    
+  }
+  
+  nav ul {
+    
+    list-style-type:none;
+    display:inline;
+    background-color:#EEBA30;
+    
+  }
+  
+  nav li { display:inline; }
+  
+  nav li a {
+    
+    display: inline;
+    float:left;
+    text-decoration: none;
+    background-color: #EEBA30;
+    color: #000000;
+    padding:14px 16px;
+    border-left:2px solid #000000;
+    
+  }
+  
+  nav li a:hover {
+   
+    text-decoration: underline;
+    background-color: #D3A625;
+    color: #000000;
+    
+  }
+
+  .active { background-color:#C0C0C0; }
+  
+  nav h1 {
+    margin-top:10px;
+    padding-right:5px;
+    color:#740001;
+  }
+  
+  nav li:last-child a { border-right:2px solid #000000; }
+  nav h1, img { float:left; }
+  
+  /*Navbar END*/
