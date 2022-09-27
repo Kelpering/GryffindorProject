@@ -55,3 +55,10 @@ nav {
   nav h1, img { float:left; }
   
   /*Navbar END*/
+  
+  /*Main content css starts here*/
+  .mContent {
+
+    margin-top:55px;
+
+  }
