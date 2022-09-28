@@ -7,7 +7,7 @@
   }
   
   /*Navbar START*/
-  body {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif}
+  body {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; background-color:var(--scarlet);}
 
   nav {
   display: inline;
@@ -66,7 +66,9 @@
   }
 
   .spell {
+    background-color:var(--gold);
     border-style:solid;
+    border-radius:16px;
     overflow:hidden;
     width:30%;
     margin:10px;
@@ -79,23 +81,23 @@
   }
 
   #Appare-Vestigium {
-
+    color:var(--black);
   }
   
   #Abapeno {
-
+    color:var(--gold);
   }
 
   #Ascendio {
-
+    color:var(--scarlet);
   }
 
   #Avis {
-
+    color:var(--silver);
   }
 
   #Arania-Exumai {
-
+    color:var(--yellow);
   }
 
   #Avada-Kedavra {

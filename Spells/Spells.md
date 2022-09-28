@@ -34,4 +34,4 @@
 - Type: Curse
 - Description: Causes instant death, signature green flash, only counter curses known require a sacrifice requiring someone to die willingly out of pure love.
 - Pronunciation: ah-VAH-dah Keh-DAV-rah
-- Reason: After the "Harry Potter Incident" we have decided to arm the children with this deadly curse in case of a future "Voldemort attack" because if everyone knows it, then it's an equal match.
+- Reason: In gryffindor, we don't mess around. So get this spell to defend yourself from evil lords.
