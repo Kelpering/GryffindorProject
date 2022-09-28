@@ -1,7 +1,5 @@
 # GryffindorProject
-A School Group Project about harry potter houses. Will include HTML and CSS
-
-# UPDATE: Navbar has been finished, make sure to stay up to date and use template as base. If you have already started, contact me to see if we can merge your code now, before it gets out of hand.
+A School Group Project about harry potter houses. Includes: HTML, CSS, and some Bootstrap 4
 
 ## Requirements:
 
