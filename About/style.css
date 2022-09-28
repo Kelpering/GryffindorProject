@@ -19,6 +19,12 @@
   height:45px;
   }
 
+  p.intro::first-line{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:900;
+    font-size: 40px;
+  }
+
   nav ul {
   list-style-type:none;
   display:inline;
