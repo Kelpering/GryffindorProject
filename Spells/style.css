@@ -58,3 +58,45 @@
   /*Main content css starts here*/
 
   .mContent { margin-top:55px; }
+
+  #spellContainer {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+  }
+
+  .spell {
+    border-style:solid;
+    overflow:hidden;
+    width:30%;
+    margin:10px;
+    text-align:center;
+  }
+
+  .spell li {
+    text-align:left;
+  }
+
+  #Appare-Vestigium {
+
+  }
+  
+  #Abapeno {
+
+  }
+
+  #Ascendio {
+
+  }
+
+  #Avis {
+
+  }
+
+  #Arania-Exumai {
+
+  }
+
+  #Avada-Kedavra {
+
+  }
