@@ -1,4 +1,4 @@
-#Spells written out, Needed: Reason for inclusion
+# Spells written out, Needed: Reason for inclusion
 
 ## Appare Vestigium
 - Type: charm
