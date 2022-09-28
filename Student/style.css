@@ -1,3 +1,11 @@
+:root{
+    --scarlet:#740001;
+    --gold:#D3A625;
+    --yellow:#EEBA30;
+    --black:#000000;
+    --silver:#C0C0C0;
+    }
+    
     /*Navbar START*/
 
     body {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif}
@@ -9,14 +17,14 @@
     position:fixed;
     top:0;
     left:0;
-    background-color:#EEBA30;
+    background-color:var(--yellow);
     height:45px;
     }
 
     nav ul {
     list-style-type:none;
     display:inline;
-    background-color:#EEBA30;
+    background-color:var(--yellow);
     }
 
     nav li { display:inline; }
@@ -25,23 +33,24 @@
     display: inline;
     float:left;
     text-decoration: none;
-    background-color: #EEBA30;
-    color: #000000;
+    background-color: var(--yellow);
+    color: var(--black);
     padding:14px 16px;
-    border-left:2px solid #000000;
+    border-left:2px solid var(--black);
     }
 
     nav li a:hover {
     text-decoration: underline;
-    background-color: #D3A625;
-    color: #000000;
+    background-color: var(--gold);
+    color: var(--black);
     }
 
-    nav .active { background-color:#C0C0C0; }
+    nav .active { background-color:var(--silver); }
 
     nav h1 {
     margin-top:10px;
     padding-right:5px;
+<<<<<<< HEAD
     color:#740001;
 <<<<<<< HEAD
   }
@@ -53,19 +62,22 @@ img
   /*Navbar END*/
   /*image styling/*
 =======
+=======
+    color:var(--scarlet);
+>>>>>>> e57f2e5eafc64afe1f6342fc209240c93e208606
     font-size:1.5em;
     font-weight:bold;
     line-height:1;
     }
 
-    nav li:last-child a { border-right:2px solid #000000; }
+    nav li:last-child a { border-right:2px solid var(--black); }
     nav h1, img { float:left; }
 
     /*Navbar END*/
     /*Main content css starts here*/
 
     .mContent { margin-top:55px; }
-    #studentCarousel { width:70%; background-color:#C0C0C0; }
+    #studentCarousel { width:70%; background-color:var(--silver); }
     .studentBio { display:block; width:90%; }
     .studentBio h2 { text-align:center; }
 >>>>>>> e925cc3621cadbc16ae9cfb684a2aee6405467ce
