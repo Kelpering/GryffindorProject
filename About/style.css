@@ -7,11 +7,10 @@
   } 
 
   /*Navbar START*/
-  body { font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; }
-  body { font-family: 'Times New Roman', Times, serif}
-  body { background-color: var(--scarlet);}
+  body { font-family: 'Times New Roman', Times, serif; background-color:var(--scarlet);}
 
   nav {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline;
   width:100%;
   position:fixed;
@@ -53,7 +52,7 @@
   float:left;
   text-decoration: none;
   background-color: var(--yellow);
-  color: (--black);
+  color: var(--black);
   padding:14px 16px;
   border-left:2px solid var(--black);
   }

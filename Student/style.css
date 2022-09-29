@@ -8,7 +8,7 @@
     
     /*Navbar START*/
 
-    body {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif}
+    body {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; background-color:var(--scarlet);}
 
     nav {
     line-height:1;
