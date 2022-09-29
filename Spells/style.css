@@ -68,6 +68,7 @@
   .spell {
     background-color:var(--gold);
     border-style:solid;
+    border-color:var(--silver);
     border-radius:16px;
     overflow:hidden;
     width:30%;
@@ -85,19 +86,19 @@
   }
   
   #Abapeno {
-    color:var(--gold);
+    color:var(--black);
   }
 
   #Ascendio {
-    color:var(--scarlet);
+    color:var(--black);
   }
 
   #Avis {
-    color:var(--silver);
+    color:var(--black);
   }
 
   #Arania-Exumai {
-    color:var(--yellow);
+    color:var(--black);
   }
 
   #Avada-Kedavra {
