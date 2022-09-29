@@ -66,9 +66,8 @@
   }
 
   .spell {
-    background-color:var(--gold);
-    border-style:solid;
-    border-color:var(--silver);
+    background-color:var(--silver);
+    border:5px solid var(--gold);
     border-radius:16px;
     overflow:hidden;
     width:30%;
