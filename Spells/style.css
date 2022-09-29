@@ -7,7 +7,7 @@
   }
   
   /*Navbar START*/
-  body {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif}
+  body {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; background-color:var(--scarlet);}
 
   nav {
   display: inline;
@@ -58,3 +58,49 @@
   /*Main content css starts here*/
 
   .mContent { margin-top:55px; }
+
+  #spellContainer {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+  }
+
+  .spell {
+    background-color:var(--gold);
+    border-style:solid;
+    border-color:var(--silver);
+    border-radius:16px;
+    overflow:hidden;
+    width:30%;
+    margin:10px;
+    text-align:center;
+  }
+
+  .spell li {
+    text-align:left;
+    padding-bottom:10px;
+  }
+
+  #Appare-Vestigium {
+    color:var(--black);
+  }
+  
+  #Abapeno {
+    color:var(--black);
+  }
+
+  #Ascendio {
+    color:var(--black);
+  }
+
+  #Avis {
+    color:var(--black);
+  }
+
+  #Arania-Exumai {
+    color:var(--black);
+  }
+
+  #Avada-Kedavra {
+
+  }
