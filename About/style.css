@@ -5,11 +5,12 @@
   --black:#000000;
   --silver:#C0C0C0;
   } 
-  
+
   /*Navbar START*/
-  body { font-family:"Helvetica Neue", Helvetica, Arial, sans-serif }
+  body { font-family: 'Times New Roman', Times, serif; background-color:var(--scarlet);}
 
   nav {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline;
   width:100%;
   position:fixed;
@@ -17,6 +18,25 @@
   left:0;
   background-color:var(--yellow);
   height:45px;
+  }
+
+ p {
+  margin-left:360px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.round1{
+  border:2px solid var(--gold);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: var(--silver);
+ }
+
+  p.intro::first-line{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:900;
+    font-size: 40px;
   }
 
   nav ul {
@@ -32,7 +52,7 @@
   float:left;
   text-decoration: none;
   background-color: var(--yellow);
-  color: (--black);
+  color: var(--black);
   padding:14px 16px;
   border-left:2px solid var(--black);
   }
