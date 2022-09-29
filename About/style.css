@@ -7,7 +7,7 @@
   } 
   
   /*Navbar START*/
-  body { font-family: 'Times New Roman', Times, serif}
+  body { font-family: 'Times New Roman', Times, serif; background-color:var(--scarlet);}
 
   nav {
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
