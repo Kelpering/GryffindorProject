@@ -71,11 +71,22 @@ img
     /*Navbar END*/
     /*Main content css starts here*/
 
-    .mContent { margin: 60px}
+    .mContent {
+       display:flex; 
+       justify-content:center;
+       align-items:center;
+       margin: 60px
+    }
     #studentCarousel { width:70%; 
       margin-block-start: 50px;
-      background-color:#740001; }
-    .studentBio { display:block; width:90%; }
+      border-style:solid;
+      border-radius:16px;
+      overflow:hidden;
+      background-color:var(--silver);
+     }
+    .studentBio { display:block; width:90%;}
     .studentBio h2 { text-align: center; }
   
-    
+    .body{
+      background-color:var(--scarlet);
+    }
