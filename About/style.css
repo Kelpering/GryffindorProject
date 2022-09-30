@@ -33,11 +33,12 @@
   background-color: var(--silver);
  }
 
-  p.intro::first-line{
+  h1.intro{
     font-family: 'Times New Roman', Times, serif;
     font-weight:900;
     font-size: 40px;
   }
+
 
   nav ul {
   list-style-type:none;
