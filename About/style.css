@@ -33,29 +33,7 @@
   background-color: var(--silver);
  }
 
-<<<<<<< HEAD
- .list1{
-    border:2px solid var(--gold);
-    border-radius: 8px;
-    padding: 15px;
-    background-color: var(--silver);
-    width: 50%;
-    float: left;
- }
-
- .list2{
-  border:2px solid var(--gold);
-  border-radius: 8px;
-  padding: 15px;
-  background-color: var(--silver);
-  width: 50%;
-  float: right;
- }
-
-  p.intro::first-line{
-=======
   h1.intro{
->>>>>>> bf94c828fb07116956f10f5d525c99397c0a5acb
     font-family: 'Times New Roman', Times, serif;
     font-weight:900;
     font-size: 40px;
