@@ -84,8 +84,13 @@ img
       overflow:hidden;
       background-color:var(--silver);
      }
-    .studentBio { display:block; width:90%;}
+    .studentBio {
+       display:block; 
+       width:auto;
+       float:right;
+      }
     .studentBio h2 { text-align: center; }
+    .studentBio h5 {text-align:center;}
   
     .body{
       background-color:var(--scarlet);
