@@ -8,7 +8,7 @@
     
     /*Navbar START*/
 
-    body {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif}
+    body {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; background-color:var(--scarlet);}
 
     nav {
     line-height:1;
@@ -71,7 +71,27 @@ img
     /*Navbar END*/
     /*Main content css starts here*/
 
-    .mContent { margin-top:55px; }
-    #studentCarousel { width:70%; background-color:var(--silver); }
-    .studentBio { display:block; width:90%; }
-    .studentBio h2 { text-align:center; }
+    .mContent {
+       display:flex; 
+       justify-content:center;
+       align-items:center;
+       margin: 60px
+    }
+    #studentCarousel { width:70%; 
+      margin-block-start: 50px;
+      border-style:solid;
+      border-radius:16px;
+      overflow:hidden;
+      background-color:var(--silver);
+     }
+    .studentBio {
+       display:block; 
+       width:auto;
+       float:right;
+      }
+    .studentBio h2 { text-align: center; }
+    .studentBio h5 {text-align:center;}
+  
+    .body{
+      background-color:var(--scarlet);
+    }
