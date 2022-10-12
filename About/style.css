@@ -88,7 +88,7 @@ ul h2 {
     
   list-style-type:none;
   display:inline;
-    background-color: var(--yellow);
+  background-color: var(--yellow);
     
   }
 
@@ -103,14 +103,6 @@ ul h2 {
     color: var(--black);
     padding:14px 16px;
     border-left:2px solid var(--black);
-    
-  display: inline;
-  float:left;
-  text-decoration: none;
-  background-color: var(--yellow);
-  color: var(--black);
-  padding:14px 16px;
-  border-left:2px solid var(--black);
   }
 
   nav li a:hover {
