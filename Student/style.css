@@ -90,3 +90,5 @@ img
     .body{
       background-color:var(--scarlet);
     }
+
+    h2 {text-align:center;}
