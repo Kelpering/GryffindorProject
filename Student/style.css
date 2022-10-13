@@ -86,7 +86,7 @@ img
      }
     .studentBio {
        display:block; 
-       width:auto;
+       width:60%;
        float:right;
       }
     .studentBio h2 { text-align: center; }
