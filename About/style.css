@@ -1,3 +1,19 @@
+
+/*Navbar START*/
+
+nav {
+  
+    display: inline;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: var(--yellow);
+    height:45px;
+    
+    
+  }
+  
  :root{
   --scarlet:#740001;
   --gold:#D3A625;
@@ -41,7 +57,7 @@
     padding: 15px;
     padding-left:20px;
     background-color: var(--silver);
-    width: 50%;
+    width: 15%;
     float: left;
  }
 
@@ -51,7 +67,7 @@
   padding: 15px;
   padding-left:20px;
   background-color: var(--silver);
-  width: 50%;
+  width: 15%;
   float: right;
  }
 
@@ -64,46 +80,48 @@ ul h2 {
     font-family: 'Times New Roman', Times, serif;
     font-weight:900;
     font-size: 40px;
-    color:var(--silver);
+    color:var(--gold);
   }
 
 
   nav ul {
+    
   list-style-type:none;
   display:inline;
   background-color: var(--yellow);
+    
   }
 
   nav li { display:inline; }
 
   nav li a {
-  display: inline;
-  float:left;
-  text-decoration: none;
-  background-color: var(--yellow);
-  color: var(--black);
-  padding:14px 16px;
-  border-left:2px solid var(--black);
+    
+    display: inline;
+    float:left;
+    text-decoration: none;
+    background-color: var(--yellow);
+    color: var(--black);
+    padding:14px 16px;
+    border-left:2px solid var(--black);
   }
 
   nav li a:hover {
+   
   text-decoration: underline;
-  background-color: var(--gold);
-  color: var(--black);
+    background-color: var(--gold);
+    color: var(--black);
+    
   }
 
-  nav .active { background-color:var(--silver); }
+  .active { background-color:var(--silver); }
 
   nav h1 {
   margin-top:10px;
   padding-right:5px;
-  color:var(--scarlet);
+    color: var(--scarlet);
   }
 
   nav li:last-child a { border-right:2px solid var(--black); }
   nav h1, img { float:left; }
 
   /*Navbar END*/
-  /*Main content css starts here*/
-
-  .mContent { margin-top:55px; }
